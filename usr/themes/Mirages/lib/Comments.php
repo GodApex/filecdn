@@ -120,7 +120,7 @@ class Mirages_Widget_Comments_Archive extends Widget_Abstract_Comments
         <cite class="fn color-main" itemprop="name"><?php $singleCommentOptions->beforeAuthor();
         $this->author();
         $singleCommentOptions->afterAuthor(); ?></cite>
-        <span class="comment-ua">
+    <span class="comment-ua">
     <?php getOs($this->agent); ?>
     <?php getBrowser($this->agent); ?></span>
     </div>
