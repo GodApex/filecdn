@@ -13,7 +13,7 @@ function fish() {
         '<div class="container" id="jsi-flying-fish-container"></div>'
       ),
       $("body").append(
-        '<script src="https://cdn.jsdelivr.net/gh/godapex/filecdn@latest/blog/fish/fish.js"></script>'
+        '<script src="https://cdn.jsdelivr.net/gh/godapex/filecdn@master/blog/fish/fish.js"></script>'
       ),
       this
     );
