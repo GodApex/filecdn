@@ -110,31 +110,32 @@ include 'menu.php';
             <div class="col-mb-12">
                 <ul class="typecho-option-tabs fix-tabs clearfix">
                     <li class="current"><a href="#">我的动态</a></li>
-                    <li><a href="<?php Dynamics_Plugin::homeUrl(); ?>" target="_blank">动态首页</a></li>
+                    <li><a href="<?php Helper::options()->index(Dynamics_Plugin::DYNAMICS_ROUTE); ?>" target="_blank">动态首页</a>
+                    </li>
                     <li>
-                        <a href="<?php echo Helper::options()->adminUrl . 'options-plugin.php?config=Dynamics'; ?>">设置</a>
+                        <a href="<?php Helper::options()->adminUrl('extending.php?panel=Dynamics%2FThemes.php'); ?>">主题设置</a>
+                    </li>
+                    <li>
+                        <a href="<?php Helper::options()->adminUrl('options-plugin.php?config=Dynamics'); ?>">插件设置</a>
                     </li>
                 </ul>
             </div>
 
             <div class="col-mb-12 typecho-list">
                 <div class="dynamic-row row">
-
                     <div class="col-mb-4 dynamic-left">
                         <div class="dynamic-list">
                             <div class="dynamic-add">我的动态</div>
                             <div class="dynamic-body"></div>
                             <div class="dynamic-loadmore" href="javascript:void(0)">
                                 <span>加载更多</span>
-                                <?php
-                                $loading_ball = Typecho_Common::url('/usr/plugins/Dynamics/balls.gif', $options->siteUrl);
-                                echo '<span class="loading"><img class="avatar" src="' . $loading_ball . '" alt="loading" width="12" height="12"/></span>';
-                                ?>
+                                <span class="loading"><img class="avatar"
+                                                           src="<?php $options->pluginUrl("Dynamics/img/balls.gif"); ?>"
+                                                           alt="loading" width="12" height="12"/></span>
                             </div>
                             <div class="dynamic-nomore">没有更多动态了</div>
                         </div>
                     </div>
-                    <div></div>
                     <div class="col-mb-8 dynamic-right">
                         <p>
                             <label for="text" class="sr-only"><?php _e('文章内容'); ?></label>
@@ -498,7 +499,7 @@ include 'footer.php';
         });
 
         $(document).on('click', '#dynamic-btn-box .adds', function () {
-            $.get('/action/dynamics-manage?do=adds', {}, function (data) {
+            $.get('<?php Helper::options()->index("action/dynamics?do=addDynamics");?>', {}, function (data) {
                 if (data.result) {
                     notedata['key_' + data.data.did] = data.data;
 
@@ -528,7 +529,7 @@ include 'footer.php';
 
         $(document).on('click', '#dynamic-btn-box .save', function () {
             if (selectId) {
-                $.get('/action/dynamics-manage?do=saves', {
+                $.get('<?php Helper::options()->index("action/dynamics?do=saveDynamics");?>', {
                     did: selectId,
                     title: $('.dynamic-right .title').val(),
                     text: $('#text').val(),
@@ -547,7 +548,7 @@ include 'footer.php';
         $(document).on('click', '#dynamic-btn-box .delete', function () {
             if (confirm('确定删除该动态')) {
                 if (selectId) {
-                    $.get('/action/dynamics-manage?do=deletes', {
+                    $.get('<?php Helper::options()->index("action/dynamics?do=deleteDynamics");?>', {
                         did: selectId
                     }, function (data) {
                         if (data.result) {
@@ -574,7 +575,7 @@ include 'footer.php';
         var notedata = [];
 
         function loadDynamics() {
-            $.get('/action/dynamics-manage?do=lists', {
+            $.get('<?php Helper::options()->index("action/dynamics?do=listDynamics");?>', {
                 lastdid: lastdid
             }, function (data) {
                 if (data.result) {
