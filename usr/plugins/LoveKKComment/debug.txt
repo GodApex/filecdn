@@ -1,0 +1,113 @@
+[SMTP] 2021-05-03 14:00:38: 
+data: a:12:{s:8:"fromName";s:20:"GodApex-那个男人";s:4:"from";s:17:"zerone.lee@qq.com";s:2:"to";s:25:"lizhiyuan2004@foxmail.com";s:7:"replyTo";s:17:"zerone.lee@qq.com";s:7:"subject";s:61:"您在 [GodApex-那个男人]  发表的文章有新评论！";s:4:"html";s:2329:"<table style="width:99.8%;height:99.8%">
+    <tbody>
+    <tr>
+        <td style="background:#fafafa url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAy0lEQVQY0x2PsQtAYBDFP1keKZfBKIqNycCERUkMKLuSgZnRarIpJX8s3zfcDe9+794du+8bRVHQOI4wDAOmaULTNDDGYFkWMVVVQUTQdZ3iOMZxHCjLElVV0TRNYHVdC7ptW6RpSn3f4wdJkiTs+w6WJAl4DcOAbdugKAq974umaRAEARgXn+cRW3zfFxuiKCJZloXGHMeBbdv4Beq6Duu6Issy7iYB8Jbnucg8zxPLsggnj/zvIxaGIXmeB9d1wSE+nOeZf4HruvABUtou5ypjMF4AAAAASUVORK5CYII=)">
+            <div style="border-radius:10px;font-size:13px;color:#555;width:666px;font-family:'Century Gothic','Trebuchet MS','Hiragino Sans GB','微软雅黑','Microsoft Yahei',Tahoma,Helvetica,Arial,SimSun,sans-serif;margin:50px auto;border:1px solid #eee;max-width:100%;background:#fff repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow:0 1px 5px rgba(0,0,0,.15)">
+                <div style="width:100%;background:#49BDAD;color:#fff;border-radius:10px 10px 0 0;background-image:-moz-linear-gradient(0deg,#43c6b8,#ffd1f4);background-image:-webkit-linear-gradient(0deg,#43c6b8,#ffd1f4);height:66px"><p style="font-size:15px;word-break:break-all;padding:23px 32px;margin:0;background-color:hsla(0,0%,100%,.4);border-radius:10px 10px 0 0">您在 [<a href="https://godapex.com/" style="text-decoration:none;color:#fff" target="_blank">GodApex-那个男人</a>] 发表的文章有新评论！</p></div>
+                <div style="margin:40px auto;width:90%">
+                    <p>dsad 在您的《<a href="https://godapex.com/archives/28/comment-page-1#comment-26" style="text-decoration:none;color:#12addb" target="_blank">开往-Travelling</a>》上发表评论:</p>
+                    <p style="background:#fafafa repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow:0 2px 5px rgba(0,0,0,.15);margin:20px 0;padding:15px;border-radius:5px;font-size:14px;color:#555">ssa</p>
+                    <p>请注意：此邮件由 <a href="https://godapex.com/" style="color:#12addb" target="_blank">GodApex-那个男人</a> 自动发送，请勿直接回复。</p>
+                    <p>若此邮件不是您请求的，请忽略并删除！</p>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>";s:9:"smtp_host";s:11:"smtp.qq.com";s:9:"smtp_port";s:3:"587";s:9:"smtp_user";s:17:"zerone.lee@qq.com";s:9:"smtp_pass";s:16:"ywsssnpedepqggdj";s:9:"smtp_auth";a:1:{i:0;s:6:"enable";}s:11:"smtp_secure";s:3:"tls";}
+
+邮件发送返回数据：b:1;; 错误信息: 
+-------------------------------------------
+
+
+[SMTP] 2021-05-03 14:03:36: 
+data: a:12:{s:8:"fromName";s:20:"GodApex-那个男人";s:4:"from";s:17:"zerone.lee@qq.com";s:2:"to";s:25:"lizhiyuan2004@foxmail.com";s:7:"replyTo";s:17:"zerone.lee@qq.com";s:7:"subject";s:61:"您在 [GodApex-那个男人]  发表的文章有新评论！";s:4:"html";s:2329:"<table style="width:99.8%;height:99.8%">
+    <tbody>
+    <tr>
+        <td style="background:#fafafa url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAy0lEQVQY0x2PsQtAYBDFP1keKZfBKIqNycCERUkMKLuSgZnRarIpJX8s3zfcDe9+794du+8bRVHQOI4wDAOmaULTNDDGYFkWMVVVQUTQdZ3iOMZxHCjLElVV0TRNYHVdC7ptW6RpSn3f4wdJkiTs+w6WJAl4DcOAbdugKAq974umaRAEARgXn+cRW3zfFxuiKCJZloXGHMeBbdv4Beq6Duu6Issy7iYB8Jbnucg8zxPLsggnj/zvIxaGIXmeB9d1wSE+nOeZf4HruvABUtou5ypjMF4AAAAASUVORK5CYII=)">
+            <div style="border-radius:10px;font-size:13px;color:#555;width:666px;font-family:'Century Gothic','Trebuchet MS','Hiragino Sans GB','微软雅黑','Microsoft Yahei',Tahoma,Helvetica,Arial,SimSun,sans-serif;margin:50px auto;border:1px solid #eee;max-width:100%;background:#fff repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow:0 1px 5px rgba(0,0,0,.15)">
+                <div style="width:100%;background:#49BDAD;color:#fff;border-radius:10px 10px 0 0;background-image:-moz-linear-gradient(0deg,#43c6b8,#ffd1f4);background-image:-webkit-linear-gradient(0deg,#43c6b8,#ffd1f4);height:66px"><p style="font-size:15px;word-break:break-all;padding:23px 32px;margin:0;background-color:hsla(0,0%,100%,.4);border-radius:10px 10px 0 0">您在 [<a href="https://godapex.com/" style="text-decoration:none;color:#fff" target="_blank">GodApex-那个男人</a>] 发表的文章有新评论！</p></div>
+                <div style="margin:40px auto;width:90%">
+                    <p>dsad 在您的《<a href="https://godapex.com/archives/28/comment-page-1#comment-27" style="text-decoration:none;color:#12addb" target="_blank">开往-Travelling</a>》上发表评论:</p>
+                    <p style="background:#fafafa repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow:0 2px 5px rgba(0,0,0,.15);margin:20px 0;padding:15px;border-radius:5px;font-size:14px;color:#555">dsa</p>
+                    <p>请注意：此邮件由 <a href="https://godapex.com/" style="color:#12addb" target="_blank">GodApex-那个男人</a> 自动发送，请勿直接回复。</p>
+                    <p>若此邮件不是您请求的，请忽略并删除！</p>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>";s:9:"smtp_host";s:11:"smtp.qq.com";s:9:"smtp_port";s:3:"587";s:9:"smtp_user";s:17:"zerone.lee@qq.com";s:9:"smtp_pass";s:16:"ywsssnpedepqggdj";s:9:"smtp_auth";a:1:{i:0;s:6:"enable";}s:11:"smtp_secure";s:3:"tls";}
+
+邮件发送返回数据：b:1;; 错误信息: 
+-------------------------------------------
+
+
+[SMTP] 2021-05-03 14:04:38: 
+data: a:12:{s:8:"fromName";s:20:"GodApex-那个男人";s:4:"from";s:17:"zerone.lee@qq.com";s:2:"to";s:25:"lizhiyuan2004@foxmail.com";s:7:"replyTo";s:17:"zerone.lee@qq.com";s:7:"subject";s:61:"您在 [GodApex-那个男人]  发表的文章有新评论！";s:4:"html";s:2334:"<table style="width:99.8%;height:99.8%">
+    <tbody>
+    <tr>
+        <td style="background:#fafafa url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAy0lEQVQY0x2PsQtAYBDFP1keKZfBKIqNycCERUkMKLuSgZnRarIpJX8s3zfcDe9+794du+8bRVHQOI4wDAOmaULTNDDGYFkWMVVVQUTQdZ3iOMZxHCjLElVV0TRNYHVdC7ptW6RpSn3f4wdJkiTs+w6WJAl4DcOAbdugKAq974umaRAEARgXn+cRW3zfFxuiKCJZloXGHMeBbdv4Beq6Duu6Issy7iYB8Jbnucg8zxPLsggnj/zvIxaGIXmeB9d1wSE+nOeZf4HruvABUtou5ypjMF4AAAAASUVORK5CYII=)">
+            <div style="border-radius:10px;font-size:13px;color:#555;width:666px;font-family:'Century Gothic','Trebuchet MS','Hiragino Sans GB','微软雅黑','Microsoft Yahei',Tahoma,Helvetica,Arial,SimSun,sans-serif;margin:50px auto;border:1px solid #eee;max-width:100%;background:#fff repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow:0 1px 5px rgba(0,0,0,.15)">
+                <div style="width:100%;background:#49BDAD;color:#fff;border-radius:10px 10px 0 0;background-image:-moz-linear-gradient(0deg,#43c6b8,#ffd1f4);background-image:-webkit-linear-gradient(0deg,#43c6b8,#ffd1f4);height:66px"><p style="font-size:15px;word-break:break-all;padding:23px 32px;margin:0;background-color:hsla(0,0%,100%,.4);border-radius:10px 10px 0 0">您在 [<a href="https://godapex.com/" style="text-decoration:none;color:#fff" target="_blank">GodApex-那个男人</a>] 发表的文章有新评论！</p></div>
+                <div style="margin:40px auto;width:90%">
+                    <p>dsadwd 在您的《<a href="https://godapex.com/archives/28/comment-page-1#comment-28" style="text-decoration:none;color:#12addb" target="_blank">开往-Travelling</a>》上发表评论:</p>
+                    <p style="background:#fafafa repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow:0 2px 5px rgba(0,0,0,.15);margin:20px 0;padding:15px;border-radius:5px;font-size:14px;color:#555">dasd d</p>
+                    <p>请注意：此邮件由 <a href="https://godapex.com/" style="color:#12addb" target="_blank">GodApex-那个男人</a> 自动发送，请勿直接回复。</p>
+                    <p>若此邮件不是您请求的，请忽略并删除！</p>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>";s:9:"smtp_host";s:11:"smtp.qq.com";s:9:"smtp_port";s:3:"587";s:9:"smtp_user";s:17:"zerone.lee@qq.com";s:9:"smtp_pass";s:16:"ywsssnpedepqggdj";s:9:"smtp_auth";a:1:{i:0;s:6:"enable";}s:11:"smtp_secure";s:3:"tls";}
+
+邮件发送返回数据：b:1;; 错误信息: 
+-------------------------------------------
+
+
+[SMTP] 2021-05-03 14:05:44: 
+data: a:12:{s:8:"fromName";s:20:"GodApex-那个男人";s:4:"from";s:17:"zerone.lee@qq.com";s:2:"to";s:25:"lizhiyuan2004@foxmail.com";s:7:"replyTo";s:17:"zerone.lee@qq.com";s:7:"subject";s:61:"您在 [GodApex-那个男人]  发表的文章有新评论！";s:4:"html";s:2242:"<div style="width: 550px;height: auto;border-radius: 5px;margin:0 auto;border:1px solid #ffb0b0;box-shadow: 0px 0px 20px #888888;position: relative;">
+    <div style="background-image: url(https://s2.ax1x.com/2019/05/17/EqsfLn.jpg);width:550px;height: 250px;background-size: cover;background-repeat: no-repeat;border-radius: 5px 5px 0px 0px;"></div>
+    <div style="background-color:white;line-height:180%;padding:0 15px 12px;width:520px;margin:10px auto;color:#555555;font-family:'Century Gothic','Trebuchet MS','Hiragino Sans GB',微软雅黑,'Microsoft Yahei',Tahoma,Helvetica,Arial,'SimSun',sans-serif;font-size:12px;margin-bottom: 0px;">
+        <h2 style="border-bottom:1px solid #DDD;font-size:14px;font-weight:normal;padding:13px 0 10px 8px;"><span style="color: #12ADDB;font-weight: bold;">&gt; </span>您的文章<a style="text-decoration:none;color: #12ADDB;" href="https://godapex.com/archives/28/comment-page-1#comment-29" target="_blank">《开往-Travelling》</a>有了新的回复耶~</h2>
+        <div style="padding:0 12px 0 12px;margin-top:18px">
+            <p><strong>dsadwdwd</strong>&nbsp;给您的评论：</p>
+            <p style="background-color: #f5f5f5;border: 0px solid #DDD;padding: 10px 15px;margin:18px 0">34132sd</p>
+            <p>其他信息：</p>
+            <p style="background-color: #f5f5f5;border: 0px solid #DDD;padding: 10px 15px;margin:18px 0">IP：14.111.50.168<br />邮箱：<a href="mailto:dwadw@qad.dfs">dwadw@qad.dfs</a><br />状态：approved [<a href='https://godapex.com/admin/manage-comments.php' target='_blank'>管理评论</a>]</p>
+        </div>
+    </div>
+    <a style="text-decoration: none;color: rgb(255, 255, 255);width: 40%;text-align: center;background-color: rgb(145, 165, 165);height: 40px;line-height: 40px;box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);display: block;margin: auto;" href="https://godapex.com/archives/28/comment-page-1#comment-29" target="_blank">查看回复的完整內容</a>
+    <div style="color:#8c8c8c;;font-family: 'Century Gothic','Trebuchet MS','Hiragino Sans GB',微软雅黑,'Microsoft Yahei',Tahoma,Helvetica,Arial,'SimSun',sans-serif;font-size: 10px;width: 100%;text-align: center;">
+        <p>©2019 Copyright dsadwdwd</p>
+    </div>
+</div>";s:9:"smtp_host";s:11:"smtp.qq.com";s:9:"smtp_port";s:3:"587";s:9:"smtp_user";s:17:"zerone.lee@qq.com";s:9:"smtp_pass";s:16:"ywsssnpedepqggdj";s:9:"smtp_auth";a:1:{i:0;s:6:"enable";}s:11:"smtp_secure";s:3:"tls";}
+
+邮件发送返回数据：b:1;; 错误信息: 
+-------------------------------------------
+
+
+[SMTP] 2021-05-03 14:08:48: 
+data: a:12:{s:8:"fromName";s:20:"GodApex-那个男人";s:4:"from";s:17:"zerone.lee@qq.com";s:2:"to";s:25:"lizhiyuan2004@foxmail.com";s:7:"replyTo";s:17:"zerone.lee@qq.com";s:7:"subject";s:61:"您在 [GodApex-那个男人]  发表的文章有新评论！";s:4:"html";s:2275:"<div style="width: 550px;height: auto;border-radius: 5px;margin:0 auto;border:1px solid #ffb0b0;box-shadow: 0px 0px 20px #888888;position: relative;">
+    <div style="background-image: url(https://cdn.jsdelivr.net/gh/Peter-Highness/CDN/img/2021/20210207221834.webp);width:550px;height: 250px;background-size: cover;background-repeat: no-repeat;border-radius: 5px 5px 0px 0px;"></div>
+    <div style="background-color:white;line-height:180%;padding:0 15px 12px;width:520px;margin:10px auto;color:#555555;font-family:'Century Gothic','Trebuchet MS','Hiragino Sans GB',微软雅黑,'Microsoft Yahei',Tahoma,Helvetica,Arial,'SimSun',sans-serif;font-size:12px;margin-bottom: 0px;">
+        <h2 style="border-bottom:1px solid #DDD;font-size:14px;font-weight:normal;padding:13px 0 10px 8px;"><span style="color: #12ADDB;font-weight: bold;">&gt; </span>您的文章<a style="text-decoration:none;color: #12ADDB;" href="https://godapex.com/archives/28/comment-page-1#comment-30" target="_blank">《开往-Travelling》</a>有了新的回复耶~</h2>
+        <div style="padding:0 12px 0 12px;margin-top:18px">
+            <p><strong>dsadwdwd</strong>&nbsp;给您的评论：</p>
+            <p style="background-color: #f5f5f5;border: 0px solid #DDD;padding: 10px 15px;margin:18px 0">dww213</p>
+            <p>其他信息：</p>
+            <p style="background-color: #f5f5f5;border: 0px solid #DDD;padding: 10px 15px;margin:18px 0">IP：14.111.50.168<br />邮箱：<a href="mailto:dwadw@qad.dfs">dwadw@qad.dfs</a><br />状态：approved [<a href='https://godapex.com/admin/manage-comments.php' target='_blank'>管理评论</a>]</p>
+        </div>
+    </div>
+    <a style="text-decoration: none;color: rgb(255, 255, 255);width: 40%;text-align: center;background-color: rgb(145, 165, 165);height: 40px;line-height: 40px;box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);display: block;margin: auto;" href="https://godapex.com/archives/28/comment-page-1#comment-30" target="_blank">查看回复的完整內容</a>
+    <div style="color:#8c8c8c;;font-family: 'Century Gothic','Trebuchet MS','Hiragino Sans GB',微软雅黑,'Microsoft Yahei',Tahoma,Helvetica,Arial,'SimSun',sans-serif;font-size: 10px;width: 100%;text-align: center;">
+        <p>©2021 Copyright dsadwdwd</p>
+    </div>
+</div>";s:9:"smtp_host";s:11:"smtp.qq.com";s:9:"smtp_port";s:3:"587";s:9:"smtp_user";s:17:"zerone.lee@qq.com";s:9:"smtp_pass";s:16:"ywsssnpedepqggdj";s:9:"smtp_auth";a:1:{i:0;s:6:"enable";}s:11:"smtp_secure";s:3:"tls";}
+
+邮件发送返回数据：b:1;; 错误信息: 
+-------------------------------------------
+
+
