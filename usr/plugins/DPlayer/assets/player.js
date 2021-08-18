@@ -1,16 +1,1 @@
-var dPlayers = [];
-var loadDPlayer = function () {
-    var load = function (d, conf) {
-        conf.container = d;
-        dPlayers.push(new DPlayer(conf));
-    };
-    for (var i = 0; i < dPlayers.length; i++) {
-        dPlayers[i].destroy();
-    }
-    dPlayers = [];
-    for (var j = 0, k = document.querySelectorAll('.dplayer'); j < k.length; j++) {
-        load(k[j], JSON.parse(k[j].dataset.config));
-    }
-};
-
-document.addEventListener('DOMContentLoaded', loadDPlayer, !1);
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(36)};if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[2-9a]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('2 3=[];2 5=6(){2 7=6(d,4){4.container=d;3.push(new DPlayer(4))};8(2 i=0;i<3.9;i++){3[i].destroy()}3=[];8(2 j=0,k=a.querySelectorAll(\'.dplayer\');j<k.9;j++){7(k[j],JSON.parse(k[j].dataset.config))}};a.addEventListener(\'DOMContentLoaded\',5,!1);',[],11,'||var|dPlayers|conf|loadDPlayer|function|load|for|length|document'.split('|'),0,{}))

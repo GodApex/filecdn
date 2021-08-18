@@ -129,4 +129,3 @@ $this->need('component/header.php');
     <?php $this->pageNav(_mt('上一页'), _mt('下一页'), 0, '', 'wrapClass=page-navigator&prevClass=btn btn-primary prev&nextClass=btn btn-primary next'); ?>
 </div>
 <?php $this->need('component/footer.php'); ?>
-
